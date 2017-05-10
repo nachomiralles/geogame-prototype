@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO THE GAME"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:padding="50sp"/>
+
+    <TextView
+        android:id="@+id/initialText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push the Button For starting the game and enjoy."
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/startGameButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="startQuest"
+            android:text="START GAME"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </RelativeLayout>
+</LinearLayout>

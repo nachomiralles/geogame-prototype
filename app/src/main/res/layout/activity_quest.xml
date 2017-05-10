@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/questInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yo have to walk XXX distance and the go to the red point."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20sp"/>
+
+
+    <TextView
+        android:id="@+id/questStatus"
+        android:layout_width="match_parent"
+        android:text="QuestStatus"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="20sp"/>
+
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.esri.arcgisruntime.mapping.view.MapView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+{
+  "Author": "Nacho Miralles",
+  "Place": "Castellón",
+  "Template": "basic",
+  "levels":[
+    {
+      "level": 1,
+      "latitude": 39.994690,
+      "longitude": -0.069091,
+      "distance": 250
+    },
+    {
+      "level": 2,
+      "latitude": 39.995841,
+      "longitude": -0.068673,
+      "distance": 500
+    },
+    {
+      "level": 3,
+      "latitude": 39.994080,
+      "longitude": -0.073506,
+      "distance": 1000
+    }
+  ]
+}

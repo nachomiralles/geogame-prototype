@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "568511146733",
+    "firebase_url": "https://maptestnacho.firebaseio.com",
+    "project_id": "maptestnacho",
+    "storage_bucket": "maptestnacho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568511146733:android:3f8b1866e65859ea",
+        "android_client_info": {
+          "package_name": "com.tesisnacho.maptest.maptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568511146733-qdqaeajd988ej8sfgb18brjstq9e4k25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt9EFp5Qc1aPq2cPkQqRLOABoZq4-ssr8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
